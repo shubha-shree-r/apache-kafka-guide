@@ -16,9 +16,9 @@ public class ConsumerDemoWithShutDown {
 
     private static final Logger log = LoggerFactory.getLogger(ConsumerDemoWithShutDown.class.getSimpleName());
     public static void main(String[] args) {
-        log.info("I am a Kafka Consumer");
+        log.info("Hi,  I am a Kafka Consumer");
 
-        String groupId = "demo_topic_app";
+        String groupId = "kafka_topic_app";
 
         String topic = "demo_topic";
 
