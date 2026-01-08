@@ -15,9 +15,9 @@ public class ConsumerDemo {
 
     private static final Logger log = LoggerFactory.getLogger(ConsumerDemo.class.getSimpleName());
     public static void main(String[] args) {
-        log.info("I am a Kafka Consumer");
+        log.info("Hi, I am a Kafka Consumer");
 
-        String groupId = "demo_topic_app";
+        String groupId = "kafka-basic";
 
         String topic ="demo_topic";
 
